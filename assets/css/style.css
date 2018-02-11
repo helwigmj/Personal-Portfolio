@@ -137,11 +137,7 @@ h3,
   width: 62px;
   height: 62px;
   margin-top: 8px;
-  margin-right: 5px;
-}
-
-.social:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 /* main */
@@ -242,7 +238,8 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (min-width: 980px) {
+
+@media only screen and (max-width: 980px) {
   header {
     display:static;
   }
@@ -269,7 +266,7 @@ input[type=submit] {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 .container {
   max-width: 700px;
@@ -285,7 +282,65 @@ input[type=submit] {
 
 }
 
-@media only screen and (min-width: 640px) {
-  body {
-     
+@media only screen and (max-width: 640px) {
+
+/* Nav/Navbar at 640px */
+
+#logo {
+  width: 100%;
+}
+
+nav {
+  float: none;
+  clear: both;
+  text-align: center;
+  border:1px solid #ccc;
+  border-width:1px 0;
+}
+
+.nav li{
+  display:inline;
+  text-align: center;
+}
+
+nav a {
+  margin:15px;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+
+/* Main Section at 640px */
+.main-section {
+  margin: 20px;
+  max-width: 600px;
+  float:none;
+  overflow: auto;
+  clear: both; 
+  }
+
+
+/* Author Image at 640px */
+.auth-image {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  margin:20px;
+  max-width: 600px;
+  float:none;
+}
+
+.work {
+  max-width: 550px;
+  width: 100%;
+}
+
+
+
 }
