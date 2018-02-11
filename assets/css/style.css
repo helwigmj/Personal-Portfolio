@@ -50,6 +50,10 @@ h3 {
   font-size: 22px;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* header */
 
 #masthead {
@@ -236,4 +240,41 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media only screen and (min-width: 980px) {
+  header {
+    display:static;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .main-section {
+  max-width: 400px;
+  }
+
+  .sidebar {
+    max-width: 250px;
+  }
+  .social {
+    width:50px;
+    height: 50px;
+  }
+
+  .auth-image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+     
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+     
 }
