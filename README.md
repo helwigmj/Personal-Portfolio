@@ -1,2 +1,4 @@
 # Basic-Portfolio
-Basic Portfolio for 1st Homework Assignment
+My personal portfolio, coded using HTML/CSS best practices. 
+
+Can be seen at:  https://helwigmj.github.io/Personal-Portfolio/.
