@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 <!-- Viewport Meta Tag / Title / style.css -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,49 +10,95 @@
   <title>Portfolio | Megan Helwig</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Oswald:300" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Header -->
+  <!-- Header -->
   <header id="masthead">
-    <div class="container">
-      <!-- Header that links back to Home Page-->
-      <a href="index.html" id="logo">Megan Helwig</a>
+    <!-- Header that links back to Home Page-->
+    <a href="index.html" id="logo">
+      <img src="assets/images/logo.png">
+    </a>
 
-      <!-- Nav Bar w/ Links -->
-      <nav class="nav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <!-- Nav Bar w/ Links -->
+    <nav class="nav">
+      <a href="index.html">About</a>
+      <div class="dropdown">
+        <a class="dropbtn">Portfolio</a>
+        <div class="dropdown-content">
+          <a class="dropdown-link" href="#">Link 1</a>
+          <a class="dropdown-link" href="#">Link 2</a>
+          <a class="dropdown-link" href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="contact.html" id="contactLink">Contact</a>
+    </nav>
     </div>
 
   </header>
+  <div class="fullsize-image">
+    <img src="assets/images/Background2.jpg">
+  </div>
   <!--/..Header -->
-
-  <!-- Main Content: About Me Photo/Bio Paragraph -->
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/wet-cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>This is an about me paragraph. I'm supposed to write something fun,
-        but I'm definitely not goings to spend the time on that. I'd rather 
-        practice coding now, write later. Just filling up space. Should I have
-        used Lorem Ipsum? Probably. But there's a bit of my personality in this
-        paragraph, even if there is no detail.</p>
-
-    <p>This is just a small second paragraph. Gotta me it look as much like 
-        example as possible. This paragraph is much shorter than the first. On
-        second thought, it probably isn't. I think if I hit one more line I should
-        be ok.</p>   
-    </section>
-<!--/..Main Content -->
-    
-
- <!-- SideBar: Social Links -->
+  <div class="container">
+    <!-- Main Content: About Me Photo/Bio Paragraph -->
+    <div id="projects">
+      <!-- Project One Tile -->
+      <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+        <!-- Project Two Tile -->
+       <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+        <!-- Project Three Tile -->
+       <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+       <!-- Project Four Tile -->
+       <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+        <!-- Project Five Tile -->
+       <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+        <!-- Project Six Tile -->
+       <figure>
+       <div class="project-tile">
+       </div>
+         <figcaption>
+           <p>this is a project description.
+         </figcaption>
+       </figure>
+     </div>
+  
+  </div>
+      
+      <!-- SideBar: Social Links 
  <section class="sidebar">
     <div id="connect">
       <h2>Connect with Me</h2>
@@ -62,15 +109,17 @@
     </div>
   </section>
 </div>
-<!--/..SideBar -->
-
-<!-- Footer -->
-<footer>
-  <div class="container">
-    Copyright Megan Helwig 2018&copy; 
+..SideBar -->
+    </div>
+    </section>
   </div>
-</footer>
-<!--/..Footer -->
+  <!-- Footer -->
+  <footer>
+    <div id="footerCopy">
+      Copyright Megan Helwig 2018&copy;
+    </div>
+  </footer>
+  <!--/..Footer -->
 
 </body>
 
