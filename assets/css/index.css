@@ -1,0 +1,253 @@
+body {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  color: #262A47;
+}
+  
+* {
+  box-sizing: border-box;
+}
+  
+/* General Styling */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+}
+ 
+/* Font Styling */
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+  
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Font family/color */
+h1,
+h2,
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #262A47;
+}
+  
+  
+h2,
+h3 {
+  font-size: 18px;
+  kerning: 10px;
+}
+
+footer h3 {
+  font-family: Montserrat, sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+  
+   
+img {
+  max-width: 100%;
+}
+  
+/* header */
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 75px;
+  margin: 0 0 30px;
+  color: #262A47;
+  /*  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+  
+#logo {
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+/* Navigation w/ Dropdown */
+ /* Navigation w/ Dropdown */
+ nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  line-height: 18px;
+  letter-spacing: .1em;
+}
+  
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  font-family: Oswald, sans-serif;
+  color: white;
+  background-color: rgba(38, 42, 71);
+  padding: 7px;
+  text-decoration: none;
+}
+  
+nav a:first-child {
+  font-size: 14px;
+  font-family: Oswald, sans-serif;
+}
+
+/* Nav links on hover styling */
+nav a:hover {
+  color:  #CFBBBA !important;
+}
+
+/*Dropdown Styling */
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
+  font-size: 14px;
+  font-family: Oswald, sans-serif;
+  padding-left: 0px !important;
+  margin-left: 15px !important;
+  color: white !important;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #262A47;
+  color: white !important;
+  font-family: Oswald, sans-serif;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 10px;
+  z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
+  
+.dropdown-link {
+  border: none !important;
+  font-family: Oswald, sans-serif;
+  line-height: 22px;
+  font-weight: 100px;
+  color: white !important;
+}
+
+/* Homepage About Me Graphic */
+.fullsize-image {
+  height: 300px;
+  width: 100%;
+  background-color:  lightgray;
+  color: #262A47;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+/* Project Tiles Layout/ Middle Section Layout */
+figure {
+  display: inline-block;
+}
+
+#projects {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+
+/* Project Image Styles*/
+.project-tile {
+  height: 300px;
+  width: 250px;
+  background-color: gray;
+  margin: 75px 40px 0px;
+  display: inline-block;
+  box-shadow: 20px 15px lightgray;
+}
+
+/* Project Description */
+figcaption {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 40px;
+}
+
+
+/* Footer & Social Links */
+footer {
+  padding: 10px 0;
+  width: 100%;
+  clear: both;
+  font-size: 14px;
+  text-align: center;
+  background:#262A47;
+}
+
+
+/* Social Media Link Styling */
+.socialLinks {
+  display: inline-block;
+}
+
+.socialLinks a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+/* Social Media Link Layout Styling- centered/spaced */
+ul { 
+  margin: 20px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+
+/* Social Media Link Animation */
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  /* position: absolute; */
+  background: #fff;
+  transition: width 0.4s ease 0s, left 0.4s ease 0s;
+  width: 0;
+}
+
+.socialLinks a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+ 
+  
+
+  
+ 
