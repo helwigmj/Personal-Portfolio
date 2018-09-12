@@ -26,7 +26,7 @@
 
       <!-- Nav Bar w/ Links -->
       <nav class="nav">
-        <a href="about.html">About</a>
+        <a href="about.html" id="about">About</a>
         <div class="dropdown">
           <a class="dropbtn">Portfolio</a>
           <div class="dropdown-content">
@@ -41,11 +41,12 @@
   </header>
   <!--/..Header -->
 
-  <!-- Main Container: Contact Form -->
+  <!-- Main Container: About Me Image, Paragraph -->
   <div class="mainSection">
     <!-- Left Side -->
     <div class="leftSide">
       <div id="projects">
+        <!-- About Me Image -->
         <div class="project-tile">
         </div>
       </div>
@@ -54,49 +55,106 @@
     <!-- Right Side -->
     <div class="rightSide">
       <h3>WHO AM I?</h3>
+       <!-- About Me Paragraph -->
       <p id="aboutMePara">
         <strong>My name is Megan Helwig and I am a designer, illustrator and web developer living in Richmond, VA.</strong>        I've lived in Richmond since I got my start as a designer with a Bachelor's from VCU's Robinson School of Media and
-        Design in 2013. When I decided to commit to continuing to live in the city, I had the opportunity to work with a
-        variety of small and unique agencies, studios and businesses.
+        Design in 2013. The decision to stay in the city has given me the opportunity to work with a variety of small and unique agencies, studios and businesses.
         <div id="space">
           My skill set and work ethic have lead me to gain experince in traditional and digital graphic design, illustration, screen
           printing, photography and photo editing, packaging design, social media content strategy/design, in-house design
-          and most recently, web development and design. I recieved a full-stack web developer from the University of Richmond
-          this summer, and have been working with Anthem as a Frontend Developer since July of this year.
+          and most recently, web development and design. I recieved a full-stack web developer certificate from the University
+          of Richmond this past July, and have been working with Anthem as a Front-End Developer since.
         </div>
-
         <strong>
-      Think you want to work with me? Lets talk: <a href="mailto:helwigmegan@gmail.com?Subject=Lets%20work%20together!" target="_top">
+      Think you want to work together? Lets talk: 
+     <!-- Mail to link w/ subject line: 'Let's work together! -->
+      <a href="mailto:helwigmegan@gmail.com?Subject=Lets%20work%20together!" target="_top">
          helwigmegan@gmail.com</a>
       </strong>
       </p>
-
+      <!-- /..About Me Paragraph -->
     </div>
     <!--/..Right Side -->
   </div>
   <!--/..Main Container -->
+
   <hr class="line">
+
   <!-- CV -->
   <div class="cv">
     <!-- CV Left Column -->
     <div class="column" id="resumeLeft">
       <h3 class="resumeCateg">EXPERIENCE </h3>
-      <h4>Frontend Developer w/ Anthem</h4>
-      <p> Helped develop the Anthem employer portal as a part of a scrum team using Angular 5 best practices. </p>
+      <!-- Anthem Description-->
+      <h4>Frontend Developer <a class="oblique" href="https://www.anthem.com/employer/"> @ Anthem</a></h4>
+      <p class="dateHidden">
+          Jul 2018 - Present
+      </p>
+      <p id="noBotMargin"> Helped to develop the Anthem employer portal as a part of a scrum team using Angular 5 best practices.</p>
+      <!-- /..Anthem Description -->
       <br>
-      <h4>Frontend Developer w/ Anthem</h4>
-      <p> Helped develop the Anthem employer portal as a part of a scrum team using Angular 5 best practices. </p>
+      <!-- Think Description -->
+      <h4>Designer<a class="oblique" href="www.think804.com/"> @ Think</a></h4>
+      <p class="dateHidden">
+          Jan 2018 - Jul 2018
+      </p>
+      <ul class="b">
+        <p id="leftAlign">Created print and digital design work and maintained brand standards internally as well as for a variety of clients
+          under a creative director. Work includes:</p>
+        <li>Development and design of multiple websites.</li>
+        <li>Redesign of client brand packages/collateral such as brochures, flyers, and business cards for clients including
+          Manakin Farms, Harris Williams & Co. and Puck's Market.</li>
+        <li>Sourced, edited and placed stock photography.</li>
+      </ul>
+      <!-- /..Think Description -->
+      <br>
+      <!-- Release the Hounds Description -->
+      <h4>Designer<a class="oblique" href="https://www.releasethehounds.tv/"> @ Release the Hounds</a></h4>
+      <p class="dateHidden">
+         Sept 2016 - Jun 2017
+      </p>
+      <ul class="b">
+        <p id="leftAlign">Hired as a design intern and was promoted to designer after 3 months. As a part of a five person team, worked
+          on wide a variety of projects, including:</p>
+        <li>Created social media content, sourced stock photos and edited web content for agency side project 'The Soundview
+          Project'. </li>
+        <li>Strategized/created holiday-themed watercolor illustrations as social media content for client Eagle Bay.</li>
+        <li>Created illustration used for multiple pieces of branch merchandise and branch promotion for the national brand 'Crunch
+          Dynasty'.</li>
+      </ul>
+      <!-- /..Release the Hounds Description -->
+      <br>
+      <!-- Ellwoods Description -->
+      <h4>In-House Designer<a class="oblique" href="https://ellwoodthompsons.com/"> @ Ellwood Thompson's Local Market</a></h4>
+      <ul class="b">
+        <p id="leftAlign">Working as part of a three person team, much of the time independently, to create a wide-variety of design work, including:</p>
+        <li>Brand consistent in-store signage with a 24 hour turn-around rate. Improved/maintained brand consistency as an in-house designer.</li>
+        <li>Created graphics for print, digital and social media to promote in-store events.</li>
+        <li>Designed print ads that were published in local magazines such as RVA Magazine and Style Weekly while maintaining a consistent brand standard.</li>
+      </ul>
+      <!-- /..Ellwoods Description -->
     </div>
     <!--/..CV Left Column -->
+
     <!-- CV Right Column -->
-    <div class="column">
+    <div class="column" id="resumeRight">
       <p class="resumeDate" id="date1">
-        July 2018 - Present
+        Jul 2018 - Present
       </p>
       <br>
       <br>
-      <p class="resumeDate">
-          July 2018 - Present
+      <p class="resumeDate" id="date2">
+        Jan 2018 - Jul 2018
+      </p>
+      <br>
+      <br>
+      <p class="resumeDate" id="date3">
+        Sept 2016 - Jun 2017
+      </p>
+      <br>
+      <br>
+      <p class="resumeDate" id="date4">
+          May 2015 - May 2017
         </p>
     </div>
     <!--/..CV Right Column -->
@@ -105,14 +163,14 @@
 
 
   <!-- Footer -->
-  <footer>
-    <div class="contact" id="contact">
+  <footer class="footer">
+    <!-- <div class="contact" id="contact">
       <ul>
         <li class="socialLinks"><a href="https://github.com/helwigmj">GITHUB</a></li>
         <li class="socialLinks"><a href="https://www.linkedin.com/in/meganhelwig/">LINKEDIN</a></li>
         <li class="socialLinks"><a href="https://www.instagram.com/inflammatorykitten">INSTAGRAM</a></li>
       </ul>
-    </div>
+    </div> -->
   </footer>
   <!--/..Footer -->
 

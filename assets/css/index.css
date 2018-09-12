@@ -212,14 +212,14 @@ footer {
 }
 
 /* Social Media Link Layout Styling- centered/spaced */
-ul { 
+/* ul { 
   margin: 20px auto 0; 
   padding: 0; 
   list-style: none; 
   display: table;
   width: 600px;
   text-align: center;
-}
+} */
 
 li { 
   display: table-cell; 
@@ -251,3 +251,25 @@ a:after {
 
   
  
+@media only screen and (max-width: 450px) {
+#logo {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+nav a {
+  margin-left: 0;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+li {
+  padding: 2px;
+}
+
+.socialLinks a {
+  padding: 0px;
+}
+}
