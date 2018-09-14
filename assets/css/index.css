@@ -8,6 +8,10 @@ body {
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
   
 /* General Styling */
 .container {
@@ -175,6 +179,16 @@ figure {
   display: inline-block;
   box-shadow: 20px 15px lightgray;
 }
+
+.project-tile:hover {
+  opacity: .5;
+  filter: alpha(opacity=100); 
+  box-shadow: 0px 0px;
+  transition: ease;
+}
+
+
+
 
 /* Project Description */
 figcaption {

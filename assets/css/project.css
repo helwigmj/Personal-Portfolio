@@ -1,0 +1,352 @@
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #262A47;
+  }
+    
+  * {
+    box-sizing: border-box;
+  }
+    
+  
+  html {      
+    scroll-behavior: smooth;
+  }
+
+  img {
+    max-width: 100%;
+    min-height: 100px !important;
+  }
+
+ /* General Styling */
+ .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+   
+  /* Font Styling */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Font family/color */
+  h1,
+  h2,
+  h3 {
+    font-family: Montserrat, sans-serif;
+    color: #262A47;
+  }
+    
+    
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+  
+  footer h3 {
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+    
+     
+  /* header */
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 75px !important;
+    margin: 0 0 30px;
+    color: #262A47;
+    /*  background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  }
+    
+  #logo {
+    float: left;
+    width: 100px !important;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+  /* Navigation w/ Dropdown */
+  nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    line-height: 18px;
+    letter-spacing: .1em;
+  }
+    
+  nav a {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: Oswald, sans-serif;
+    color: white;
+    background-color: rgba(38, 42, 71);
+    padding: 7px;
+    text-decoration: none;
+  }
+    
+  nav a:first-child {
+    font-size: 14px;
+    font-family: Oswald, sans-serif;
+  }
+  
+  /* Nav links on hover styling */
+  nav a:hover {
+    color:  #CFBBBA !important;
+  }
+  
+  /*Dropdown Styling */
+  .dropdown {
+    /* position: relative; */
+    display: inline-block;
+    font-size: 14px;
+    font-family: Oswald, sans-serif;
+    padding-left: 0px !important;
+    margin-left: 15px !important;
+    color: white !important;
+  }
+    
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #262A47;
+    color: white !important;
+    font-family: Oswald, sans-serif;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 10px;
+    z-index: 1;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: grid;
+  }
+    
+  .dropdown-link {
+    border: none !important;
+    font-family: Oswald, sans-serif;
+    line-height: 22px;
+    font-weight: 100px;
+    color: white !important;
+  }
+  
+  
+  /* Body - Page Content */
+  #projects {
+    text-align: right;
+   float: right;
+    padding-bottom: 75px;
+    margin-top: 50px;
+  }
+  
+  .project-tile {
+    /* height: 250px; */
+    max-width: 500px;
+    width: 100%;
+    height: auto; 
+    margin-bottom: 40px;
+  }
+  
+  /*Left side of layout for project pages */
+  .leftSide {
+   width: 45%;
+   display: inline-block;
+  }
+  
+
+  #image1 {
+    margin-right: 1em; 
+    min-width: 250px;
+  }
+
+  #image2 {
+      margin-top: -100px;  
+      min-width: 250px;
+  }
+
+  #image3 {
+    padding: 20px;
+    min-width: 250px;
+  }
+
+  .rightSide {
+   width: 45%;
+   float: right;
+   text-align: left;
+   margin: 95px 25px 25px;
+  }
+  
+
+  
+  #projectTitle {
+    padding: 15px 0;
+    margin-right: 50px;
+  }
+  
+  #respTitle {
+      display: none;
+  }
+
+  
+  #projectRole {
+    margin-bottom: 10px;
+  }
+
+  #skills {
+      font-style: oblique;
+  }
+
+  p#skillsResp {
+    display: none;
+  }
+  
+  
+
+  
+  /* Footer & Social Links */
+  footer {
+    width: 100%;
+    clear: both;
+    font-size: 14px;
+    text-align: center;
+    background:#262A47;
+  }
+  
+  
+  /* Social Media Link Styling */
+  .socialLinks {
+    display: inline-block;
+  }
+  
+  .socialLinks a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  
+  /* Social Media Link Layout Styling- centered/spaced */
+  
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+  
+  /* Social Media Link Animation */
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute; 
+    background: #fff;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    width: 0;
+  }
+  
+  .socialLinks a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+   
+    
+  @media only screen and (max-width: 1000px) {
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    .leftSide {
+        width: 100%;
+    }
+
+    .rightSide {
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        float: unset;
+        width: 100%
+    }
+
+      #projects {
+          float: unset !important;
+          margin: 0 auto;
+          padding-bottom: 0px;
+      }
+      .project-tile {
+          margin: 0 auto;
+          max-width: 400px;
+      }
+      #image1 {
+          margin-right: 0;
+      }
+
+      #image2 {
+          margin-top: 0;
+      }
+      
+      h1#respTitle {
+          display: block;
+          text-align: center;
+          margin: 100px 10px 30px 10px;
+      }
+
+      #projectRole {
+          margin-bottom: 5px;
+      }
+
+      #projectTitle, #skills {
+          display: none;
+      }
+      p#skillsResp {
+          display: block;
+          font-style: oblique;
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #logo {
+        margin-left: 10px;
+    }
+    .dropdown, .dropbtn, nav a {
+        margin-left: 0;
+    }
+
+    nav {
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+    #logo {
+        margin-left: 5px;
+    }
+
+    h1#respTitle {
+        margin: 115px 10px 30px 10px;
+    }
+
+    #image2, #image1, #image3 {
+        min-width: 100px;
+    }
+}
