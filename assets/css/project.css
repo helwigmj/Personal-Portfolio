@@ -106,7 +106,6 @@ body {
   
   /*Dropdown Styling */
   .dropdown {
-    /* position: relative; */
     display: inline-block;
     font-size: 14px;
     font-family: Oswald, sans-serif;
@@ -121,7 +120,7 @@ body {
     background-color: #262A47;
     color: white !important;
     font-family: Oswald, sans-serif;
-    /* min-width: 160px; */
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 10px;
     z-index: 1;
@@ -209,10 +208,21 @@ body {
     display: none;
   }
   
-  
+  /* Back to top link */
+ #backToTop {
+  text-align: right;
+  font-size: 14px;
+  font-style: oblique;
+  font-weight: 600;
+  text-decoration: none;
+  color: #262A47;
+ }
 
-  
-  /* Footer & Social Links */
+ #marginRight {
+  margin-right: 40px;
+ }
+
+ /* Footer & Social Links */
   footer {
     width: 100%;
     clear: both;

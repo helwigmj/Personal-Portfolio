@@ -27,12 +27,9 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  margin-top: 5px;
 }
   
-p:last-child {
-  margin-bottom: 0;
-}
-
 /* Font family/color */
 h1,
 h2,
@@ -40,13 +37,7 @@ h3 {
   font-family: Montserrat, sans-serif;
   color: #262A47;
 }
-  
-  
-h2,
-h3 {
-  font-size: 18px;
-  kerning: 10px;
-}
+
 
 footer h3 {
   font-family: Montserrat, sans-serif;
@@ -69,8 +60,6 @@ img {
   height: 75px;
   margin: 0 0 30px;
   color: #262A47;
-  /*  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
 }
   
 #logo {
@@ -81,7 +70,6 @@ img {
   margin-top: 10px;
 }
 
-/* Navigation w/ Dropdown */
  /* Navigation w/ Dropdown */
  nav {
   float: right;
@@ -113,7 +101,6 @@ nav a:hover {
 
 /*Dropdown Styling */
 .dropdown {
-  /* position: relative; */
   display: inline-block;
   font-size: 14px;
   font-family: Oswald, sans-serif;
@@ -128,7 +115,7 @@ nav a:hover {
   background-color: #262A47;
   color: white !important;
   font-family: Oswald, sans-serif;
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 10px;
   z-index: 1;
@@ -167,7 +154,7 @@ figure {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 
 /* Project Image Styles*/
@@ -188,19 +175,34 @@ figure {
 }
 
 
-
-
 /* Project Description */
 figcaption {
   text-align: center;
   padding-top: 5px;
-  margin-bottom: 40px;
+  font-size: 13px;
+  font-style: oblique;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+/* Back to top link */
+#backToTop {
+  text-align: right;
+  font-size: 14px;
+  font-style: oblique;
+  font-weight: 600;
+  text-decoration: none;
+  color: #262A47;
+}
+
+#marginRight {
+  margin-right: 40px;
 }
 
 
 /* Footer & Social Links */
 footer {
-  padding: 10px 0;
+  padding: 25px 0;
   width: 100%;
   clear: both;
   font-size: 14px;
@@ -226,15 +228,6 @@ footer {
 }
 
 /* Social Media Link Layout Styling- centered/spaced */
-/* ul { 
-  margin: 20px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: center;
-} */
-
 li { 
   display: table-cell; 
   position: relative; 
@@ -249,7 +242,7 @@ a:after {
   display: block;
   height: 2px;
   left: 50%;
-  /* position: absolute; */
+  position: absolute; 
   background: #fff;
   transition: width 0.4s ease 0s, left 0.4s ease 0s;
   width: 0;
@@ -261,11 +254,10 @@ a:after {
 }
 
  
-  
-
-  
- 
+/* Media Queries for screen 450px or less */ 
 @media only screen and (max-width: 450px) {
+
+  /* Navigation */
 #logo {
   margin-left: 5px;
   margin-top: 5px;
@@ -283,6 +275,7 @@ li {
   padding: 2px;
 }
 
+/* Footer */
 .socialLinks a {
   padding: 0px;
 }

@@ -1,75 +1,77 @@
-/* General Styling */
-body {
+ /* General Styling */
+ body {
     font-family: Lato, sans-serif;
     line-height: 22px; 
     color: #262A47;
-}
+ }
     
-* {
+ * {
     box-sizing: border-box;
-}
+ }
 
-.container {
+ .container {
     width: 100%;
     margin: 0 auto;
-}
+ } 
+
+ html {
+    scroll-behavior: smooth;
+ }
    
-/* Font Styling */
-p {
+ /* Font Styling */
+ p {
     margin-bottom: 20px;
     font-size: 14px;
-}
+ }
 
-h1,
-h2,
-h3 {
+ h1,
+ h2,
+ h3 {
     font-family: Montserrat, sans-serif;
     color: #262A47;
-}
+ }
     
-footer h3 {
+ footer h3 {
     font-family: Montserrat, sans-serif;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
-}
+ }
   
-/* Image Styling */
-img {
+ /* Image Styling */
+ img {
     max-width: 100%;
-}
+ }
     
-/* Header/Logo Styling */
-#masthead {
+ /* Header/Logo Styling */
+ #masthead {
     position: fixed;
     z-index: 99;
     width: 100%;
     height: 75px;
     margin: 0 0 30px;
     color: #262A47;
-    /*  background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-}
+ }
     
-#logo {
+ #logo {
     float: left;
     width: 100px;
     height: auto;
     margin-left: 40px;
     margin-top: 10px;
-}
+ }
   
-/* Nav Bar w/ Dropdown */
-nav {
+ /* Nav Bar w/ Dropdown */
+ nav {
     float: right;
     margin-top: 30px;
     margin-right: 40px;
     line-height: 18px;
     letter-spacing: .1em;
-}
+ }
     
-nav a {
+ nav a {
     display: inline-block;
     margin-left: 15px;
     font-family: Oswald, sans-serif;
@@ -77,165 +79,159 @@ nav a {
     background-color: rgba(38, 42, 71);
     padding: 7px;
     text-decoration: none;
-}
+ }
     
-nav a:first-child {
+ nav a:first-child {
     font-size: 14px;
     font-family: Oswald, sans-serif;
-}
+ }
   
-/* Nav links on hover styling */
-nav a:hover {
+ /* Nav links on hover styling */
+ nav a:hover {
     color:  #CFBBBA !important;
-}
+ }
   
-/*Dropdown Styling */
-.dropdown {
-    /* position: relative; */
+ /*Dropdown Styling */
+ .dropdown {
     display: inline-block;
     font-size: 14px;
     font-family: Oswald, sans-serif;
     padding-left: 0px !important;
     margin-left: 15px !important;
     color: white !important;
-}
+ }
     
-.dropdown-content {
+ .dropdown-content {
     display: none;
     position: absolute;
     background-color: #262A47;
     color: white !important;
     font-family: Oswald, sans-serif;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 10px;
     z-index: 1;
-}
+ }
     
-.dropdown:hover .dropdown-content {
+ .dropdown:hover .dropdown-content {
     display: grid;
-}
+ }
     
-.dropdown-link {
+ .dropdown-link {
     border: none !important;
     font-family: Oswald, sans-serif;
     line-height: 22px;
-    font-weight: 100px;
     color: white !important;
-}
+ }
 
 
-/* About Me- Body*/
-.mainSection {
+ /* About Me- Body*/
+ .mainSection {
     padding-top: 75px;
     max-width: 1100px;
     margin: 0 auto;
     display: block !important;
-}
+ }
 
-#projects {
+ #projects {
     margin-bottom: 75px;
     margin-top: 50px;
-}
+ }
   
-.project-tile {
+ .project-tile {
     height: 400px;
     width: 350px;
     background-color: gray;
     margin: 0 30px 40px;
-}
+ }
   
-/*Left side of layout- About Me Image */
-.leftSide {
+ /*Left side of layout- About Me Image */
+ .leftSide {
     width: 40%;
     float: left;
     margin-left: 75px;
-}
+ }
 
-/* Right Side of Layout- About Me Pargraph */  
-.rightSide {
+ /* Right Side of Layout- About Me Pargraph */  
+ .rightSide {
     width: 45%;
     float: left;
     margin: 25px 20px;
     padding-top: 20px;
     font-size: 14px !important;
-}
+ }
 
-#aboutMePara {
+ #aboutMePara {
     margin-top: 15px;
     font-size: 14px;
-}
+ }
 
-#space {
+ #space {
     margin-top: -10px;
     margin-bottom: 10px;
-}
+ }
 
-a:link {
+ a:link {
     text-decoration: none;
     color: #262A47;
-}
+ }
 
-a:hover {
+ a:hover {
     color: #CFBBBA;
-}
+ }
 
-/* CV Styling */
-.cv {
+ /* CV Styling */
+ .cv {
     display: flex;
     margin: 0 auto; 
     max-width: 850px;
     margin-top: 50px;
     margin-bottom: 50px;
-}
+ }
 
-.cv:after {
+ .cv:after {
     content: "";
     display: table;
-    clear: both;
-}
+    clear: both; 
+ }
 
-/* Horizontal Seperator Line */
-.line {
+ /* Horizontal Seperator Line */
+ .line {
     width: 80%;
     top: 50%;
     text-align: center;
     color: #CFBBBA;
-}
+ }
 
-/* .column {
- flex: 50%;
-} */
 
-/* Resume Left */
-.resumeCateg {
+ /* Resume Left */
+ .resumeCateg {
     margin-bottom: 20px;
-}
+ }
 
-#resumeLeft {
+ #resumeLeft {
     margin-right: 100px;
-}
+ }
 
-#noBotMargin {
+ #noBotMargin {
     margin-bottom: 0px !important;
-}
+ }
 
-#leftAlign {
+ #leftAlign {
     text-align: left !important;
     margin-bottom: 5px !important;
     white-space: normal;
-    /* word-break: break-all; */
-}
+ }
 
-/* Bullet Points for Experience */
-ul.b {
+ /* Bullet Points for Experience */
+ ul.b {
     list-style-type: disc;
     padding: 0 !important;
     margin: 0 !important;
     white-space: normal
-}
+ }
 
-.b li {
+ .b li {
     list-style-type: disc;
     display:list-item;
     text-align: left;
@@ -243,57 +239,73 @@ ul.b {
     padding: 0 !important;
     font-size: 14px;
     white-space: normal
-}
+ }
 
-ul.b  {
+ ul.b  {
     word-wrap: break-word;
-}
+ }
 
-li {
+ li {
     word-wrap: break-word;
-}
+ }
 
-/* Styling for Company Name */
-a.oblique {
+ /* Styling for Company Name */
+ a.oblique {
     color: #262A47;
     font-style: oblique;
-}
+ }
 
-a.oblique:hover {
+ a.oblique:hover {
     color: #CFBBBA;
-}
+ } 
 
-.dateHidden {
+ .dateHidden {
     display: none;
-}
+ }
 
-/* Resume Right */
-.resumeDate {
+ /* Resume Right */
+ .resumeDate {
     font-style: oblique;
     font-size: 14px;
     flex: 50%;
     width: 150px;
     text-align: right;
-}
+ }
 
-/* Spacing for date span- left column of resume */
-#date1 {
+ /* Spacing for date span- left column of resume */
+ #date1 {
     margin-top: 45px;
-}
+ }
 
-#date2 {
+ #date2 {
     margin-top: 4px;
-}
+ }
 
-#date3 {
+ #date3 {
     margin-top: 95px;
-}
-#date4 {
+ }
+
+  #date4 {
     margin-top: 140px;
 }
 
-/* Footer & Social Links */
-footer {
+
+ /* Back to top link */
+ #backToTop {
+    text-align: right;
+    font-size: 14px;
+    font-style: oblique;
+    font-weight: 600;
+    text-decoration: none;
+    color: #262A47;
+ }
+  
+ #marginRight {
+    margin-right: 40px;
+ }
+
+ /* Footer & Social Links */
+ footer {
     padding: 10px 0;
     display: block;
     width: 100%;
@@ -301,19 +313,19 @@ footer {
     font-size: 14px;
     text-align: center;
     background:#262A47;
-}
+ }
 
-.footer {
+ .footer {
     width: 100%;
     min-height: 50px;
-}
+ }
   
-/* Social Media Link Styling */
-.socialLinks {
+ /* Social Media Link Styling */
+ .socialLinks {
     display: inline-block;
-}
+ }
   
-.socialLinks a {
+ .socialLinks a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -321,27 +333,27 @@ footer {
     letter-spacing: 0.15em;
     display: inline-block;
     padding: 15px 20px;
-}
+ }
 
   
-/* Social Media Link Layout Styling- centered/spaced */
-ul { 
+ /* Social Media Link Layout Styling- centered/spaced */
+ ul { 
     margin: 20px auto 0; 
     padding: 0; 
     list-style: none; 
     display: table;
     max-width: 600px;
     text-align: center;
-}
+ }
   
-li { 
+ li { 
     display: table-cell; 
     position: relative; 
     padding: 15px 0;
-}
+ }
   
-/* Social Media Link Animation */
-a:after {    
+ /* Social Media Link Animation */
+ a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -352,19 +364,18 @@ a:after {
     background: #fff;
     transition: width 0.4s ease 0s, left 0.4s ease 0s;
     width: 0;
-}
+ }
   
-.socialLinks a:hover:after { 
+ .socialLinks a:hover:after { 
     width: 100%; 
     left: 0; 
-}
+ }
   
    
-/*Mobile Responsiveness*/
+ /*Mobile Responsiveness*/
 
-/* Max-Width 960px */
-@media only screen and (max-width: 960px) { 
-
+ /* Max-Width 960px */
+ @media only screen and (max-width: 960px) { 
     /* About Me Image/ Paragraph */
     #projects {
         margin-bottom: 20px;
@@ -424,10 +435,10 @@ a:after {
     ul {
        width: unset !important;
     }
-}
+ }
   
-/* Max-Width 768 */
-@media only screen and (max-width: 650px) {
+ /* Media Query- 768px or Less */
+ @media only screen and (max-width: 650px) {
     .rightSide {
         margin: 0 auto;
         padding: 10px;
@@ -452,9 +463,10 @@ a:after {
         width: 300px;
         height: 350px;
     }
-}
-  
-@media only screen and (max-width: 450px) {
+ }
+
+ /* Media Query 450px or Less */
+ @media only screen and (max-width: 450px) {
     #resumeLeft .column {
         max-width: 400px;
         word-wrap: break-word;
