@@ -82,6 +82,7 @@ body {
     margin-right: 40px;
     line-height: 18px;
     letter-spacing: .1em;
+    font-size: 14px;
   }
     
   nav a {
@@ -111,6 +112,7 @@ body {
     font-family: Oswald, sans-serif;
     padding-left: 0px !important;
     margin-left: 15px !important;
+    margin-right: 20px !important;
     color: white !important;
   }
     
@@ -123,11 +125,14 @@ body {
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 10px;
+    margin-right: 15px !important;
     z-index: 1;
   }
     
   .dropdown:hover .dropdown-content {
     display: grid;
+    left: auto;
+    margin-right: 15px !important;
   }
     
   .dropdown-link {
@@ -223,14 +228,15 @@ body {
  }
 
  /* Footer & Social Links */
-  footer {
-    width: 100%;
-    clear: both;
-    font-size: 14px;
-    text-align: center;
-    background:#262A47;
-  }
-  
+ footer {
+  padding: 1px;
+  display: block;
+  width: 100%;
+  clear: both;
+  font-size: 14px;
+  text-align: center;
+  background:#262A47;
+}
   
   /* Social Media Link Styling */
   .socialLinks {
@@ -238,14 +244,18 @@ body {
   }
   
   .socialLinks a {
-    color: #fff;
+    color: #CFBBBA;
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 auto;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 5px 10px;
     position: relative;
+  }
+
+  i.fab:hover {
+    color: white;
   }
   
   /* Social Media Link Layout Styling- centered/spaced */
@@ -256,26 +266,6 @@ body {
     padding: 15px 0;
   }
   
-  /* Social Media Link Animation */
-  a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute; 
-    background: #fff;
-    transition: width 0.4s ease 0s, left 0.4s ease 0s;
-    width: 0;
-  }
-  
-  .socialLinks a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-  
-   
     
   @media only screen and (max-width: 1000px) {
 

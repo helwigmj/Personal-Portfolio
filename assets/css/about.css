@@ -69,6 +69,7 @@
     margin-right: 40px;
     line-height: 18px;
     letter-spacing: .1em;
+    font-size: 14px;
  }
     
  nav a {
@@ -98,6 +99,7 @@
     font-family: Oswald, sans-serif;
     padding-left: 0px !important;
     margin-left: 15px !important;
+    margin-right: 20px !important;
     color: white !important;
  }
     
@@ -111,6 +113,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 10px;
     z-index: 1;
+    margin-right: 15px;
  }
     
  .dropdown:hover .dropdown-content {
@@ -306,7 +309,7 @@
 
  /* Footer & Social Links */
  footer {
-    padding: 10px 0;
+    padding: 1px;
     display: block;
     width: 100%;
     clear: both;
@@ -326,15 +329,19 @@
  }
   
  .socialLinks a {
-    color: #fff;
+    color: #CFBBBA;
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 auto;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 5px 10px;
  }
 
+ i.fab:hover {
+    color: white;
+  }
+  
   
  /* Social Media Link Layout Styling- centered/spaced */
  ul { 
@@ -349,27 +356,8 @@
  li { 
     display: table-cell; 
     position: relative; 
-    padding: 15px 0;
  }
-  
- /* Social Media Link Animation */
- a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-   /* position: absolute; */
-    background: #fff;
-    transition: width 0.4s ease 0s, left 0.4s ease 0s;
-    width: 0;
- }
-  
- .socialLinks a:hover:after { 
-    width: 100%; 
-    left: 0; 
- }
+
   
    
  /*Mobile Responsiveness*/
