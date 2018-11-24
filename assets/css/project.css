@@ -182,6 +182,18 @@ body {
     min-width: 250px;
   }
 
+
+  #image4 {
+    padding: 20px;
+    min-width: 250px;
+  }
+
+
+  #image5 {
+    padding: 20px;
+    min-width: 250px;
+  }
+
   .rightSide {
    width: 45%;
    float: right;
