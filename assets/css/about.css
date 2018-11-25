@@ -54,12 +54,18 @@
     color: #262A47;
  }
     
- #logo {
+ #homeLink {
     float: left;
-    width: 100px;
-    height: auto;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 40px;
+    /* display: inline-block; */
+    font-family: Oswald, sans-serif;
+    letter-spacing: .1em;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(38, 42, 71);
+    padding: 7px;
+    text-decoration: none;
  }
   
  /* Nav Bar w/ Dropdown */
@@ -154,6 +160,11 @@
     float: left;
     margin-left: 75px;
  }
+  #aboutMe {
+      width: 90%;
+      margin-right: 20px;
+      /* height: 100%; */
+  }
 
  /* Right Side of Layout- About Me Pargraph */  
  .rightSide {
@@ -281,7 +292,7 @@
  }
 
  #date2 {
-    margin-top: 4px;
+    margin-top: 90px;
  }
 
  #date3 {
@@ -423,6 +434,10 @@
     ul {
        width: unset !important;
     }
+    #aboutMe {
+        max-width: 350px;
+        margin-right: 0px !important;
+    }
  }
   
  /* Media Query- 768px or Less */
@@ -450,6 +465,14 @@
     .project-tile {
         width: 300px;
         height: 350px;
+    }
+
+    #homepageLink {
+        margin-left: 20px;
+    }
+    #aboutMe {
+        max-width: 300px;
+        margin-right: 0px !important;
     }
  }
 
@@ -488,5 +511,9 @@
         margin: 0 auto;
         width: 200px;
         height: 250px;
+    }
+    #homeLink {
+        margin-left: 15px !important;
+        margin-top: 35px !important;
     }
 }
