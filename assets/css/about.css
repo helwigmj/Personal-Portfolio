@@ -287,6 +287,10 @@
  }
 
  /* Spacing for date span- left column of resume */
+ #date {
+    margin-top: 150px;
+ }
+ 
  #date1 {
     margin-top: 45px;
  }
