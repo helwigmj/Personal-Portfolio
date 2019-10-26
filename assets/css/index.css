@@ -77,13 +77,13 @@ x.homepage-image {
     width: 100px;
     height: auto;
     margin-left: 40px;
-    margin-top: 40px
+    margin-top: 20px
 }
 
 nav {
     float: right;
-    margin-top: 50px;
-    margin-right: 60px;
+    margin-top: 40px;
+    margin-right: 40px;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: .1em
