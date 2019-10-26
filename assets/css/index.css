@@ -53,6 +53,16 @@ img {
     max-width: 100%
 }
 
+x.homepage-image {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+
+/* navigation */
 #masthead {
     position: fixed;
     z-index: 99;
@@ -72,7 +82,7 @@ img {
 
 nav {
     float: right;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 60px;
     font-size: 14px;
     line-height: 18px;
@@ -133,14 +143,7 @@ nav a:hover {
     color: white !important
 }
 
-.homepage-image {
-    height: auto;
-    width: 70%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px
-}
-
+/* project tiles */
 br {
     display: none
 }
@@ -181,19 +184,7 @@ figcaption {
     margin: 0 auto
 }
 
-#backToTop {
-    text-align: right;
-    font-size: 14px;
-    font-style: oblique;
-    font-weight: 600;
-    text-decoration: none;
-    color: #262A47
-}
-
-#marginRight {
-    margin-right: 40px
-}
-
+/* footer */
 footer {
     padding: 1px;
     display: block;
@@ -229,6 +220,20 @@ li {
     padding: 15px 0
 }
 
+#backToTop {
+    text-align: right;
+    font-size: 14px;
+    font-style: oblique;
+    font-weight: 600;
+    text-decoration: none;
+    color: #262A47
+}
+
+#marginRight {
+    margin-right: 40px
+}
+
+/* reponsive large screen */
 @media screen and (max-width:1200px) {
     span.wrap {
         white-space: nowrap
@@ -253,8 +258,8 @@ li {
     }
 }
 
+/* responsive tablet */
 @media screen and (max-width:748px) {
-
     .homepage-image, h2.work-header, hr {
         display: none;
     }
@@ -282,6 +287,7 @@ li {
     }
 }
 
+/* responsive large phone */
 @media only screen and (max-width:475px) {
     #logo {
         margin-left: 5px;
@@ -309,6 +315,7 @@ li {
     }
 }
 
+/* responsive small phone */
 @media screen and (max-width:328px) {
     br {
         display: none
