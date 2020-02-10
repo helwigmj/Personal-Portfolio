@@ -240,6 +240,11 @@ li {
     .homepage-image > img {
         width: 75%;
     }    
+    .project-tile {
+        height: 600px;
+        width: 500px;
+    }
+    
 }
 
 /* reponsive large screen */
