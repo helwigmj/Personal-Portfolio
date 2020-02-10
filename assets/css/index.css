@@ -239,7 +239,10 @@ li {
     }
     .homepage-image > img {
         width: 75%;
-    }    
+    } 
+    div.container {
+        max-width: 1600px;
+    }   
     .project-tile {
         height: 600px;
         width: 500px;
