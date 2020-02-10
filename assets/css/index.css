@@ -233,6 +233,12 @@ li {
     margin-right: 40px
 }
 
+@media screen and (max-width:1900) {
+    .homepage-image {
+        width: 75%;
+    }
+}
+
 /* reponsive large screen */
 @media screen and (max-width:1200px) {
     span.wrap {
