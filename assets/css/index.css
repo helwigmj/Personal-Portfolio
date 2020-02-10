@@ -236,8 +236,10 @@ li {
 @media screen and (max-width:1900) {
     .homepage-image {
         text-align: center;
-        width: 75%;
     }
+    .homepage-image > img {
+        width: 75%;
+    }    
 }
 
 /* reponsive large screen */
